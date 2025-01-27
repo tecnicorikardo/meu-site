@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Abril";
+    src: url(../fontes/Abril_Fatface/AbrilFatface-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lora";
+    src: url(../fontes/Lora/Lora-Italic-VariableFont_wght.ttf);
+    src: url(../fontes/Lora/Lora-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url(../fontes/Pacifico/Pacifico-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(../fontes/Oswald/Oswald-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "play";
+    src: url(../fontes/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+    src: url(../fontes/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

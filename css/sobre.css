@@ -1,0 +1,80 @@
+:root {
+    --cor-primaria: #FF6F61;    /* Coral Vivo */
+    --cor-secundaria: #6B5B95;  /* Roxo Real */
+    --cor-terciaria: #88B04B;   /* Verde Moss */
+    --cor-quaternaria: #F7CAC9; /* Rosa Quartzo */
+    --cor-quintaria: #92A8D1;   /* Azul Serenidade */
+    --cor-sextaria: #955251;    /* Bordô */
+    --cor-septaria: #B565A7;    /* Orquídea Viva */
+    --cor-octaria: #009B77;     /* Esmeralda */
+    --cor-nonaria: #DD4124;     /* Tangerina */
+    --cor-decaria: #D65076;     /* Rosa Radiante */
+    --azul: blue;
+    --verde: green;
+    --amarelo: yellow;
+    --vermelhor: red;
+    --branco: rgb(255, 255, 255);
+    --preto: black;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.corpo {
+    background-image: url(../img/pexels.jpg);
+        font-size: 24px;
+}
+.hero {
+    font-family: "Pacifico";
+    color: var(--branco);
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 1px 2px 5px var(--preto);
+}
+h2 {
+    color: aliceblue;
+    padding: 50px;
+    text-shadow: 2px 2px 4px var(--preto);
+}
+p {
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 2px 2px 6px var(--preto) ;
+}
+.back {
+    padding: 50px;
+}
+.project {
+    width: 30%;
+    margin: 10px;
+}
+
+/* Estilos para tablets */
+@media (max-width: 768px) {
+    .project {
+        width: 45%; /* Ajusta a largura dos projetos para tablets */
+    }
+
+    nav ul li {
+        display: block; /* Altera o menu para uma lista vertical */
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para smartphones */
+@media (max-width: 480px) {
+    .project {
+        width: 100%; /* Ajusta a largura dos projetos para smartphones */
+    }
+
+    .hero {
+        padding: 30px 10px; /* Reduz o padding para telas menores */
+    }
+
+    header {
+        padding: 10px; /* Reduz o padding do cabeçalho */
+    }
+}

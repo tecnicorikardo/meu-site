@@ -1,0 +1,17 @@
+:root {
+    --cor-primaria: #FF6F61;    /* Coral Vivo */
+    --cor-secundaria: #6B5B95;  /* Roxo Real */
+    --cor-terciaria: #88B04B;   /* Verde Moss */
+    --cor-quaternaria: #F7CAC9; /* Rosa Quartzo */
+    --cor-quintaria: #92A8D1;   /* Azul Serenidade */
+    --cor-sextaria: #955251;    /* Bordô */
+    --cor-septaria: #B565A7;    /* Orquídea Viva */
+    --cor-octaria: #009B77;     /* Esmeralda */
+    --cor-nonaria: #DD4124;     /* Tangerina */
+    --cor-decaria: #D65076;     /* Rosa Radiante */
+    --azul: blue;
+    --verde: green;
+    --amarelo: yellow;
+    --vermelhor: red;
+  }
+  
