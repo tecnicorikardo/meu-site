@@ -16,21 +16,24 @@
   --cinza: rgb(124, 121, 121);
 }
 
-
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
+
 body {
+  display: flex;
+  flex-direction: column;
+  background-color: #919191;
   background-image: url('../img/pexels.jpg');
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,56 +41,64 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lora";
-  src: url(../fontes/Lora/Lora-Italic-VariableFont_wght.ttf);
 }
+
 .menu-container {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #333;
-  background-color: rgba(0, 0, 0, 0.5)
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
 .nome h1 {
   font-size: 24px;
   margin: 0;
 }
+
 .menu ul {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
 }
+
 .menu ul li {
   margin-left: 20px;
 }
+
 .menu ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
 }
+
 .menu ul li a:hover {
   text-decoration: underline;
 }
+
 .conteudo {
+  flex: 1;
   padding: 50px;
   text-align: center;
 }
+
 .foto-perfil {
-  display: block; /* Faz a imagem se comportar como um bloco*/
-  margin: 0 auto;
+  display: block;
+  margin: 20px auto;
   max-width: 300px;
   width: 100%;
   height: auto;
   border-radius: 3%;
-  margin-top: 20px;
   box-shadow: 0 4px 8px var(--cinza);
 }
+
 .redes-sociais {
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-top: 40px;
 }
+
 .botao-social {
   display: inline-flex;
   align-items: center;
@@ -98,53 +109,31 @@ body {
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
-.botao-social i {
-  margin-right: 10px; /* Espaçamento entre o icone e o texto */
-}
+
 .botao-social:hover {
   background-color: #8f8d8d;
 }
+
 .icone-social {
   width: 40px;
   height: 40px;
   margin-right: 10px;
 }
+
 .sub-title {
   font-size: 48px;
   font-family: "Abril", sans-serif;
 }
+
 .sub-p {
   font-family: "play", sans-serif;
   font-size: 24px;
 }
-.project {
-  width: 30%;
-  margin: 10px;
-}
 
-/* Estilos para tablets */
-@media (max-width: 768px) {
-  .project {
-      width: 45%; /* Ajusta a largura dos projetos para tablets */
-  }
-
-  nav ul li {
-      display: block; /* Altera o menu para uma lista vertical */
-      margin: 10px 0;
-  }
-}
-
-/* Estilos para smartphones */
-@media (max-width: 480px) {
-  .project {
-      width: 100%; /* Ajusta a largura dos projetos para smartphones */
-  }
-
-  .hero {
-      padding: 30px 10px; /* Reduz o padding para telas menores */
-  }
-
-  header {
-      padding: 10px; /* Reduz o padding do cabeçalho */
-  }
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
 }
