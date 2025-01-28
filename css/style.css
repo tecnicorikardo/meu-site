@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #919191;
-  background-image: url('../img/pexels.jpg');
+  /*background-image: url('../img/pexels.jpg');*/
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -125,7 +125,7 @@ body {
   }
 
 .sub-title {
-  font-size: 48px;
+  font-size: 100px;
   font-family: "Abril", sans-serif;
 }
 
