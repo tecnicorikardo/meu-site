@@ -119,6 +119,10 @@ body {
   height: 40px;
   margin-right: 10px;
 }
+@media (max-width: 768px) {
+  .conteudo {
+    padding: 20px;
+  }
 
 .sub-title {
   font-size: 48px;
@@ -136,4 +140,18 @@ footer {
   text-align: center;
   padding: 10px 0;
   width: 100%;
+}
+/* Usar fixed apenas em telas maiores */
+@media (min-width: 768px) {
+  body {
+    background-attachment: fixed;
+  }
+}
+
+/* Ajuste para telas pequenas */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll; /* Remove fixed no mobile */
+  }
+}
 }
